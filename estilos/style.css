@@ -1,23 +1,12 @@
 @charset "UTF-8";
 
-/*
-
-PALETA DE CORES
-verde: #49a09d
-lilás: #5f2c82
-
-#868EB5
-#4fb286
-#004387
-#0B3142
-
-*/
 :root {
     --cor1: #b6e7f0;
     --cor2: #012c57;
-    --cor3: white;
-    --cor4: rgb(37, 37, 37);
-    --cor5: #868EB5;
+    --cor3: #868EB5;
+    --cor4: #575c75;
+    --cor9: white;
+    --cor10: #252525;
 
 }
 
@@ -34,7 +23,7 @@ body {
 }
 
 #login {
-    background-color: var(--cor3);
+    background-color: var(--cor9);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -45,6 +34,7 @@ body {
     margin: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.753);
+    box-sizing: border-box;
 }
 
 #imagem {
@@ -58,18 +48,18 @@ h1 {
     padding: 20px;
     text-align: center;
     font-weight: 800;
-    color: var(--cor4);
+    color: var(--cor10);
 }
 
 p {
-    padding: 10px;
-    color: var(--cor4);
+    padding: 0px 10px 10px 10px;
+    color: var(--cor10);
 }
 
 .caixa {
     display: block;
     background-color: var(--cor2);
-    color: var(--cor3);
+    color: var(--cor9);
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
@@ -106,7 +96,6 @@ label {
 
 .material-icons {
     display: inline-block;
-    color: #ffffff;
     font-size: 28px;
     padding: 2px;
 }
@@ -118,16 +107,15 @@ label {
     width: 97%;
     border-radius: 15px;
     border: none;
-    color: rgb(255, 255, 255);
+    color: var(--cor9);
     /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.144); */
-    background-color: var(--cor5);
-    /* background-image: linear-gradient(to top, var(--cor1) 40%, var(--cor5)); */
+    background-color: var(--cor3);
+    /* background-image: linear-gradient(to top, var(--cor1) 40%, var(--cor3)); */
     box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.199);
 }
 
 #entrar:hover {
-    background-color: #575c75;
-    font-size: 1em;
+    background-color: var(--cor4);
     transition: all 0.2s;
 }
 
@@ -139,13 +127,12 @@ label {
     width: 97%;
     border-radius: 5px;
     box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.158);
-    border: 1px solid var(--cor5);
-    color: var(--cor5);
+    border: 1px solid var(--cor3);
+    color: var(--cor3);
 }
 
 #recuperarSenha:hover {
-    background-color: #575c75;
-    /* font-size: 1em; */
-    color: white;
+    background-color: var(--cor4);
+    color: var(--cor9);
     transition: all 0.2s;
 }

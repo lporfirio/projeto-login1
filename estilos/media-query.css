@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 700px) {
+
+    #login {
+        height: 370px;
+        width: 80%;
+    }
+
+    #imagem {
+        background-image: url('/imagens/padrao-predio.jpg');
+        height: 370px;
+        display: inline-block;
+
+        width: 40%;
+        background-position: center;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #formulario {
+        display: inline-block;
+        width: 59%;
+        position: relative;
+        top: -30px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    #login {
+        height: 420px;
+        max-width: 900px;
+    }
+
+    #imagem {
+        float: right;
+        height: 420px;
+        width: 50%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #formulario {
+        display: inline-block;
+        width: 50%;
+        position: relative;
+        top: 60px;
+        background-color: #ffffff;
+    }
+}

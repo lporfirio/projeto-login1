@@ -10,7 +10,7 @@
     }
 
     #imagem {
-        background-image: url('/imagens/padrao-predio.jpg');
+        background-image: url('../imagens/padrao-predio.jpg');
         height: 370px;
         display: inline-block;
 

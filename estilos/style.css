@@ -38,7 +38,7 @@ body {
 }
 
 #imagem {
-    background-image: url('/imagens/padrao-predio.jpg');
+    background-image: url('../imagens/padrao-predio.jpg');
     height: 200px;
     background-position: center;
     border-radius: 20px 20px 0px 0px;

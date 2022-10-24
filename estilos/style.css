@@ -35,6 +35,8 @@ body {
     border-radius: 20px;
     box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.753);
     box-sizing: border-box;
+    transition: height 0.3s, width 0.5s;
+    transition-timing-function: ease;
 }
 
 #imagem {
